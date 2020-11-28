@@ -27,3 +27,4 @@ t=1, d=2, 20k, 66%
 ./svm-train -m 20000 -t 2 -g 2 -c 5 -v 3 transformed/10k_samples rbf_model: 93.5%
 ./svm-train -m 20000 -t 2 -g 10 -c 5 -v 3 transformed/10k_samples rbf_model: 92.69%
 ./svm-train -m 20000 -t 2 -g 0.5 -c 5 transformed/10k_samples rbf_model: 94.26% previously
+./svm-train -m 20000 -t 2 -g 0.5 -c 5 -v 20 transformed/201127_libsvm_flight_train rbf_model_all: 99.1766%
