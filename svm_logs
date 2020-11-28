@@ -1,0 +1,29 @@
+t=2, 20k, 69%
+t=0, 20k, 78.7%
+t=1, 20k, 66%
+t=1, d=2, 20k, 66%
+
+./svm-train -m 20000 -t 2 -g 0.5 -v 3 : 93.22%
+./svm-train -m 20000 -t 2 -g 0.05 -v 3 transformed/10k_samples rbf_model: 81.95%
+./svm-train -m 20000 -t 2 -g 0.8 -v 3 transformed/10k_samples rbf_model: 94%
+./svm-train -m 20000 -t 2 -g 0.3 -c 1.5 -v 3 transformed/10k_samples rbf_model: 92.36%
+./svm-train -m 20000 -t 2 -g 0.3 -c 1.2 -v 3 transformed/10k_samples rbf_model: 91.95%
+./svm-train -m 20000 -t 2 -g 0.3 -c 0.5 -v 3 transformed/10k_samples rbf_model: 88.93%
+./svm-train -m 20000 -t 2 -g 0.3 -c 0.8 -v 3 transformed/10k_samples rbf_model: 90.78%
+./svm-train -m 20000 -t 2 -g 0.3 -c 1.1 -v 3 transformed/10k_samples rbf_model: 91.64%
+./svm-train -m 20000 -t 2 -g 0.1 -c 1.1 -v 3 transformed/10k_samples rbf_model: 85.35%
+./svm-train -m 20000 -t 2 -g 0.1 -c 1 -v 3 transformed/10k_samples rbf_model: 84.98%
+./svm-train -m 20000 -t 2 -g 0.5 -v 7 transformed/10k_samples rbf_model: 94.35%
+./svm-train -m 20000 -t 2 -g 0.5 -c 1.09 -v 3 transformed/10k_samples rbf_model: 93.41%
+./svm-train -m 20000 -t 2 -g 0.5 -c 1.24 -v 3 transformed/10k_samples rbf_model: 93.65%
+./svm-train -m 20000 -t 2 -g 0.5 -c 1.5 -v 3 transformed/10k_samples rbf_model: 93.93%
+./svm-train -m 20000 -t 2 -g 0.5 -c 2 -v 3 transformed/10k_samples rbf_model: 94.17%
+./svm-train -m 20000 -t 2 -g 0.5 -c 5 -v 3 transformed/10k_samples rbf_model: 94.26%
+./svm-train -m 20000 -t 2 -g 0.5 -c 10 -v 3 transformed/10k_samples rbf_model: 94.25%
+./svm-train -m 20000 -t 2 -g 0.5 -c 100 -v 3 transformed/10k_samples rbf_model: 94.2%
+./svm-train -m 20000 -t 2 -g 0.5 -c 10000 -v 3 transformed/10k_samples rbf_model: 92.41%
+./svm-train -m 20000 -t 2 -g 0.5 -c 100000 -v 3 transformed/10k_samples rbf_model: 89.43%
+./svm-train -m 20000 -t 2 -g 0.9 -c 5 -v 3 transformed/10k_samples rbf_model: 94.37%
+./svm-train -m 20000 -t 2 -g 2 -c 5 -v 3 transformed/10k_samples rbf_model: 93.5%
+./svm-train -m 20000 -t 2 -g 10 -c 5 -v 3 transformed/10k_samples rbf_model: 92.69%
+./svm-train -m 20000 -t 2 -g 0.5 -c 5 transformed/10k_samples rbf_model: 94.26% previously
